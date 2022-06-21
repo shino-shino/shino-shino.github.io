@@ -25,7 +25,7 @@ img {
 }
 
 .container {
-  width: calc(100% - 32px);
+  width: calc(100% - 48px);
   margin: 0 auto;
   max-width: 800px;
 }
@@ -98,7 +98,7 @@ header li a {
 }
 
 header li + li {
-  padding-left: 1vw;
+  padding-left: 3vw;
 }
 
 header.scrolled {
