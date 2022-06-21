@@ -98,7 +98,7 @@ header li a {
 }
 
 header li + li {
-  padding-left: 40px;
+  padding-left: 1vw;
 }
 
 header.scrolled {
@@ -178,7 +178,7 @@ main .job {
 }
 
 .skills li p {
-  padding: 32px;
+  padding: 6px;
 }
 
 .portfolio section + section {
@@ -191,6 +191,15 @@ main .job {
   margin: auto;
   object-fit: cover;
   border-radius: 5%;
+}
+
+.smartphone_img {
+  object-fit: contain!important;
+}
+
+.smartphone_img:hover {
+  opacity: .5;
+  transition: opacity .5s;
 }
 
 .desc {
