@@ -217,6 +217,7 @@ main .job {
 .skills .skill_others li {
   display: flex;
   text-align: center;
+  align-items: center;
 }
 
 .skills .skill_others h2 {
@@ -300,16 +301,24 @@ main .job {
 
 /* copyright */
 
-.copyright {
+footer {
+  height: 300px;
+  margin-top: 200px;
   background: #323435;
-  padding: 32px 0;
-  margin-top: 32px;
   text-align: center;
+  color: #eee;
 }
 
-.copyright small {
-  font-size: 16px;
-  color: #eee;
+footer .footer_content {
+  font-size: 18px;
+  padding-top: 120px;
+}
+
+.copyright {
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
