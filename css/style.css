@@ -149,7 +149,15 @@ main .job {
 }
 
 .about h2,.job {
-  text-align: center;
+  text-align: left;
+}
+
+.about_contents {
+  height: 240px;
+}
+
+.about_content {
+  padding-top: 65px;
 }
 
 .icon {
