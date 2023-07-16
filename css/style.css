@@ -192,8 +192,13 @@ main .job {
   text-align: center;
 }
 
+.skills .skill_top li h3 {
+  padding-top: 6px;
+  text-align: center;
+}
+
 .skills .skill_top li p {
-  padding: 6px;
+  padding: 18px;
 }
 
 .skills .skill_others ul li {
@@ -225,14 +230,12 @@ main .job {
   height: 30px;
   width: 50px;
   font-size: 30px;
-  /* outline: 2px red solid; */
 }
 
 .skills .skill_others p {
   margin: 0;
   padding: 0 10px;
   font-size: 18px;
-  /* outline: 2px red solid; */
 }
 
 .portfolio section + section {
