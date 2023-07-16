@@ -194,8 +194,13 @@ main .job {
   margin-top: 60px;
 }
 
+.portfolio .pic {
+  padding: 20px 10px;
+}
+
 .portfolio img {
-  width: 80%;
+  height: 240px;
+  width: 320px;
   display: block;
   margin: auto;
   object-fit: cover;
@@ -247,16 +252,6 @@ main .job {
   .portfolio section:nth-child(odd) {
     flex-direction: row-reverse;
   }
-
-  .portfolio img {
-    height: 300px;
-    width: 400px;
-    object-fit: cover;
-  }
-
-  /* .portfolio div {
-    width: 80%;
-  } */
 
   .desc {
     padding: 30px;
