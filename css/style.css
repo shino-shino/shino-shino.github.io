@@ -350,15 +350,15 @@ footer .footer_content {
   .animate {
     opacity: 0;
     transform: translateY(40px);
-    transition: opacity .3s, transform .3s;
+    transition: opacity .3s, transform .9s;
   }
 
   .animate.from_left {
-    transform: translateX(-40px);
+    transform: translateX(-80px);
   }
   
   .animate.from_right {
-    transform: translateX(40px);
+    transform: translateX(80px);
   }
 
   .animate.appear {
