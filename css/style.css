@@ -98,7 +98,7 @@ header li a {
 }
 
 header li + li {
-  padding-left: 3vw;
+  padding-left: 2.5vw;
 }
 
 header.scrolled {
@@ -266,6 +266,36 @@ main .job {
 
 .desc {
   padding: 18px 48px;
+}
+
+/* CAREER */
+.career div + div {
+  margin-top: 40px;
+}
+
+.career .career_content {
+  border-left: 5px solid rgb(88, 88, 88);
+  padding: 6px 16px;
+}
+
+.career h2 {
+  text-align: center;
+  padding-top: 32px;
+  padding-bottom: 20px;
+  /* outline: red 2px solid; */
+}
+
+.career p {
+  /* margin: 0; */
+  /* padding: 0; */
+}
+
+.career .period {
+  font-size: 14px;
+  margin: 0;
+  padding-left: 8px;
+  color: rgb(104, 104, 104);
+  /* outline: red 2px solid; */
 }
 
 /* copyright */
