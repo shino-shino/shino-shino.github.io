@@ -98,7 +98,7 @@ header li a {
 }
 
 header li + li {
-  padding-left: 3vw;
+  padding-left: 2.5vw;
 }
 
 header.scrolled {
@@ -217,6 +217,7 @@ main .job {
 .skills .skill_others li {
   display: flex;
   text-align: center;
+  align-items: center;
 }
 
 .skills .skill_others h2 {
@@ -268,18 +269,56 @@ main .job {
   padding: 18px 48px;
 }
 
-/* copyright */
-
-.copyright {
-  background: #323435;
-  padding: 32px 0;
-  margin-top: 32px;
-  text-align: center;
+/* CAREER */
+.career div + div {
+  margin-top: 40px;
 }
 
-.copyright small {
-  font-size: 16px;
+.career .career_content {
+  border-left: 5px solid rgb(88, 88, 88);
+  padding: 6px 16px;
+}
+
+.career h2 {
+  text-align: center;
+  padding-top: 32px;
+  padding-bottom: 20px;
+  /* outline: red 2px solid; */
+}
+
+.career p {
+  /* margin: 0; */
+  /* padding: 0; */
+}
+
+.career .period {
+  font-size: 14px;
+  margin: 0;
+  padding-left: 8px;
+  color: rgb(104, 104, 104);
+  /* outline: red 2px solid; */
+}
+
+/* copyright */
+
+footer {
+  height: 300px;
+  margin-top: 200px;
+  background: #323435;
+  text-align: center;
   color: #eee;
+}
+
+footer .footer_content {
+  font-size: 18px;
+  padding-top: 120px;
+}
+
+.copyright {
+  font-size: 14px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 
@@ -287,6 +326,8 @@ main .job {
 @media (min-width: 600px) {
   main section.about {
     display: flex;
+    justify-content: center;
+    align-items: center;
   }
   
   .about div + div {
@@ -309,15 +350,15 @@ main .job {
   .animate {
     opacity: 0;
     transform: translateY(40px);
-    transition: opacity .3s, transform .3s;
+    transition: opacity .3s, transform .9s;
   }
 
   .animate.from_left {
-    transform: translateX(-40px);
+    transform: translateX(-80px);
   }
   
   .animate.from_right {
-    transform: translateX(40px);
+    transform: translateX(80px);
   }
 
   .animate.appear {
