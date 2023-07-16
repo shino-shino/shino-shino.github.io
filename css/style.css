@@ -148,22 +148,19 @@ main .job {
   font-weight: bold;
 }
 
+.about {
+  display: grid;
+  place-items: center;
+}
+
 .about h2,.job {
-  text-align: left;
-}
-
-.about_contents {
-  height: 240px;
-}
-
-.about_content {
-  padding-top: 65px;
+  /* text-align: center; */
 }
 
 .icon {
-  /*width: 80%;*/
   width: 240px;
   height: 240px;
+  padding: 10px;
   display: block;
   margin: auto;
   object-fit: cover;
