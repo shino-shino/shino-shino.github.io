@@ -1,2 +1,2 @@
-# shino-shino.github.io
+# My Page
 こちらからアクセスできます→https://shino-shino.github.io/
