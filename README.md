@@ -4,6 +4,12 @@
 ## 公開
 こちらからアクセスできます → https://shino-shino.github.io/
 
+## 内容
+- 自己紹介
+- 技術スタック
+- スキル
+- ポートフォリオ
+
 ---
 # My Page
 Self introduction page.
